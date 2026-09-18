@@ -1,0 +1,17 @@
+# Faça um programa em Python que peça a nota de um aluno 
+# e verifique se ele foi aprovado ou reprovado.
+# Nota maior ou igual a 6 → Aprovado
+# Nota menor que 6 → Reprovado
+
+# Solicita a nota
+
+nota_aluno = float(input("Nota do aluno: "))
+
+# Solicita a nota mínima de aprovação
+nota_minima = float(input("Nota mínima para aprovação: "))
+
+# Verifica se foi aprovado
+if nota_aluno >= nota_minima:
+    print("Aprovado!")
+else:
+    print("Reprovado!")

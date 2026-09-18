@@ -1,0 +1,11 @@
+# Programa: Verificação de passagem
+# Faça um programa em Python que peça a idade de uma pessoa
+# e verifique se ela paga passagem inteira ou meia passagem.
+# Idade menor ou igual a 12 → Meia passagem
+# Idade maior que 12 → Passagem inteira
+
+idade = int(input("Informe a idade: "))
+if idade >= 12:
+    print("Passagem inteira!")
+else:
+    print("Meia passagem!")
