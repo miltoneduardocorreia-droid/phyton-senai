@@ -10,3 +10,4 @@ numero = int(input("Difite um número: "))
 for num in range (1,11):
    resultado = numero * num
    print( numero, "x" , num, "=", resultado)
+   
